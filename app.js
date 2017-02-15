@@ -69,4 +69,3 @@ var storeTot = document.createElement('th');
   southCenter.render();
   bellevue.render();
   alki.render();
-  
