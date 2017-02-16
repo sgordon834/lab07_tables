@@ -19,12 +19,12 @@ h2 {
   border: solid black;
 }
 
-.table {
-  border-style: solid;
-}
-
-.tr {
-  border-style: solid;
+ .table-bordered {
+    border-style: ridge;
+  }
+.tr .td {
+border-collapse:collapse;
+border-spacing:0;
 }
 
 main {
@@ -55,7 +55,7 @@ footer {
   color: white;
   background: url(http://www.worldmomsblog.com/wp-content/uploads/2012/04/chinook-salmon.jpg) no-repeat top center;
   font-size: 1.3em;
-  margin: 40px auto;
+  margin: 30px auto;
   text-align: center;
   background-size: cover;
   font-family: 'Caveat Brush', cursive;
